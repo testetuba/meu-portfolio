@@ -82,9 +82,21 @@ form textarea:focus {
 }
 
 form button {
-  background-color:
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
 
-  /* Estilo para a seção de apresentação */
+form button:hover {
+  background-color: #555;
+}
+
+/* Estilo para a seção de apresentação */
 .apresentacao {
   background-color: #ffffff;
   border-left: 5px solid #007bff;
